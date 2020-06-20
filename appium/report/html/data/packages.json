@@ -1,0 +1,45 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.test_todolist",
+    "children" : [ {
+      "name" : "test_login",
+      "uid" : "b84dfd1a1561b08",
+      "parentUid" : "f262852a791377c7a02e71a79df88576",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587364071133,
+        "stop" : 1587364073115,
+        "duration" : 1982
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_addDetail",
+      "uid" : "417731d8bed73971",
+      "parentUid" : "f262852a791377c7a02e71a79df88576",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587364073135,
+        "stop" : 1587364076005,
+        "duration" : 2870
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_deleteDetail",
+      "uid" : "fb028c695379ef82",
+      "parentUid" : "f262852a791377c7a02e71a79df88576",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587364076023,
+        "stop" : 1587364080436,
+        "duration" : 4413
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcases.test_todolist"
+  } ]
+}

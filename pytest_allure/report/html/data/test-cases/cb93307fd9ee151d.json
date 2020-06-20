@@ -1,0 +1,107 @@
+{
+  "uid" : "cb93307fd9ee151d",
+  "name" : "test_baidu_search_case",
+  "fullName" : "testcases.test_search.TestBaduSearch#test_baidu_search_case",
+  "historyId" : "abe903d4fb7d336b41b73b1826559730",
+  "time" : {
+    "start" : 1586855734007,
+    "stop" : 1586855740955,
+    "duration" : 6948
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1586855729931,
+      "stop" : 1586855733988,
+      "duration" : 4057
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e3c62e8877f5431f",
+      "name" : "log",
+      "source" : "e3c62e8877f5431f.txt",
+      "type" : "text/plain",
+      "size" : 410
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1586855740956,
+      "stop" : 1586855743483,
+      "duration" : 2527
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户功能"
+  }, {
+    "name" : "story",
+    "value" : "百度搜索"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBaduSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TL7UQU5"
+  }, {
+    "name" : "thread",
+    "value" : "13784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb93307fd9ee151d.json",
+  "parameterValues" : [ ]
+}

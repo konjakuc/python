@@ -1,0 +1,105 @@
+{
+  "uid" : "4af4d1be3137fe5c",
+  "name" : "test_login",
+  "fullName" : "testcases.test_todolist.Test_todolist#test_login",
+  "historyId" : "146a3d64e35e5f31345c46fd8d7a872d",
+  "time" : {
+    "start" : 1587212415934,
+    "stop" : 1587212417819,
+    "duration" : 1885
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1587212391923,
+      "stop" : 1587212415931,
+      "duration" : 24008
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f40562862c46a04",
+      "name" : "log",
+      "source" : "2f40562862c46a04.txt",
+      "type" : "text/plain",
+      "size" : 62
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1587212425063,
+      "stop" : 1587212431383,
+      "duration" : 6320
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "待办事项"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_todolist"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_todolist"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TL7UQU5"
+  }, {
+    "name" : "thread",
+    "value" : "12880-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_todolist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4af4d1be3137fe5c.json",
+  "parameterValues" : [ ]
+}

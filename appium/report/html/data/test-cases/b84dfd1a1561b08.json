@@ -1,0 +1,176 @@
+{
+  "uid" : "b84dfd1a1561b08",
+  "name" : "test_login",
+  "fullName" : "testcases.test_todolist.Test_todolist#test_login",
+  "historyId" : "146a3d64e35e5f31345c46fd8d7a872d",
+  "time" : {
+    "start" : 1587364071133,
+    "stop" : 1587364073115,
+    "duration" : 1982
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1587364046278,
+      "stop" : 1587364071130,
+      "duration" : 24852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1587364080437,
+      "stop" : 1587364086749,
+      "duration" : 6312
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "待办事项"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_todolist"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_todolist"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TL7UQU5"
+  }, {
+    "name" : "thread",
+    "value" : "11408-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_todolist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "53027e6c002766b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587363965570,
+        "stop" : 1587363967468,
+        "duration" : 1898
+      }
+    }, {
+      "uid" : "9957e5217a3828fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587363573682,
+        "stop" : 1587363576426,
+        "duration" : 2744
+      }
+    }, {
+      "uid" : "f65f74c7c69fd2c1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.",
+      "time" : {
+        "start" : 1587362188627,
+        "stop" : 1587362188627,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cac67d8e9d17cfd7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.",
+      "time" : {
+        "start" : 1587361869141,
+        "stop" : 1587361869141,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4af4d1be3137fe5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587212415934,
+        "stop" : 1587212417819,
+        "duration" : 1885
+      }
+    }, {
+      "uid" : "c90a211723e29f42",
+      "status" : "broken",
+      "statusDetails" : "TypeError: info() missing 1 required positional argument: 'msg'",
+      "time" : {
+        "start" : 1587212326842,
+        "stop" : 1587212328741,
+        "duration" : 1899
+      }
+    }, {
+      "uid" : "5bc24c0a97d5504e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: info() missing 1 required positional argument: 'msg'",
+      "time" : {
+        "start" : 1587212211652,
+        "stop" : 1587212213565,
+        "duration" : 1913
+      }
+    }, {
+      "uid" : "cd60d5294c599d55",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000201E64BEB38>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))",
+      "time" : {
+        "start" : 1587211442139,
+        "stop" : 1587211442139,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "84e97c954b29aabd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587209626220,
+        "stop" : 1587209628168,
+        "duration" : 1948
+      }
+    }, {
+      "uid" : "9f8391c7f9edb87a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587209540275,
+        "stop" : 1587209542226,
+        "duration" : 1951
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b84dfd1a1561b08.json",
+  "parameterValues" : [ ]
+}

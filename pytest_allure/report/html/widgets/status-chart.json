@@ -1,0 +1,11 @@
+[ {
+  "uid" : "cb93307fd9ee151d",
+  "name" : "test_baidu_search_case",
+  "time" : {
+    "start" : 1586855734007,
+    "stop" : 1586855740955,
+    "duration" : 6948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

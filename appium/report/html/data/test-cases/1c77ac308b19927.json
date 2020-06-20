@@ -1,0 +1,89 @@
+{
+  "uid" : "1c77ac308b19927",
+  "name" : "test_deleteDetail",
+  "fullName" : "testcases.test_todolist.Test_todolist#test_deleteDetail",
+  "historyId" : "0adad5d06cb579b717882d4823b1c871",
+  "time" : {
+    "start" : 1587363970425,
+    "stop" : 1587363974909,
+    "duration" : 4484
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1587363939792,
+      "stop" : 1587363965567,
+      "duration" : 25775
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1587363974911,
+      "stop" : 1587363981449,
+      "duration" : 6538
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "待办事项"
+  }, {
+    "name" : "story",
+    "value" : "删除待办"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_todolist"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_todolist"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TL7UQU5"
+  }, {
+    "name" : "thread",
+    "value" : "3844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_todolist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c77ac308b19927.json",
+  "parameterValues" : [ ]
+}

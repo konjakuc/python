@@ -1,0 +1,91 @@
+{
+  "uid" : "a8b1ab03da82549d",
+  "name" : "test_deleteDetail",
+  "fullName" : "testcases.test_todolist.Test_todolist#test_deleteDetail",
+  "historyId" : "0adad5d06cb579b717882d4823b1c871",
+  "time" : {
+    "start" : 1587212216348,
+    "stop" : 1587212220914,
+    "duration" : 4566
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: info() missing 1 required positional argument: 'msg'",
+  "statusTrace" : "self = <testcases.test_todolist.Test_todolist object at 0x0000014D174FA470>\ndriver = <appium.webdriver.webdriver.WebDriver (session=\"d23da3cf-7022-4756-86b0-0bf19172281a\")>\n\n    @allure.story('删除待办')\n    def test_deleteDetail(self, driver):\n        # 长按\n        detail_ele = driver.find_element_by_id('com.example.todolist:id/toDoItemDetailTv')\n        TouchAction(driver).long_press(detail_ele).perform()\n    \n        # 点击删除按钮\n        delete_button = driver.find_element_by_android_uiautomator('text(\"删除\")')\n        TouchAction(driver).tap(delete_button).perform()\n    \n        # 点击确定按钮\n        ok_button = driver.find_element_by_android_uiautomator('text(\"确定\")')\n        TouchAction(driver).tap(ok_button).perform()\n>       self.logger.info()\nE       TypeError: info() missing 1 required positional argument: 'msg'\n\ntestcases\\test_todolist.py:45: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1587212187291,
+      "stop" : 1587212211649,
+      "duration" : 24358
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1587212220933,
+      "stop" : 1587212227264,
+      "duration" : 6331
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "待办事项"
+  }, {
+    "name" : "story",
+    "value" : "删除待办"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_todolist"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_todolist"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TL7UQU5"
+  }, {
+    "name" : "thread",
+    "value" : "13744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_todolist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8b1ab03da82549d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.test_search",
+    "children" : [ {
+      "name" : "test_baidu_search_case",
+      "uid" : "cb93307fd9ee151d",
+      "parentUid" : "f01147e4a50dcdb0f17085811842638b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586855734007,
+        "stop" : 1586855740955,
+        "duration" : 6948
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcases.test_search"
+  } ]
+}

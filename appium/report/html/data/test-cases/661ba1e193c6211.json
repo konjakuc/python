@@ -1,0 +1,91 @@
+{
+  "uid" : "661ba1e193c6211",
+  "name" : "test_addDetail",
+  "fullName" : "testcases.test_todolist.Test_todolist#test_addDetail",
+  "historyId" : "b37b0209a3461e37ad56b295a2d3bc0c",
+  "time" : {
+    "start" : 1587212328940,
+    "stop" : 1587212331700,
+    "duration" : 2760
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: info() missing 1 required positional argument: 'msg'",
+  "statusTrace" : "self = <testcases.test_todolist.Test_todolist object at 0x00000249EB18B978>\ndriver = <appium.webdriver.webdriver.WebDriver (session=\"1ace0928-d7c0-492e-92a0-fceb0998e099\")>\n\n    @allure.story('添加待办')\n    def test_addDetail(self, driver):\n        # 点击添加按钮\n        driver.find_element_by_id('com.example.todolist:id/action_new').click()\n        # 添加内容\n        driver.find_element_by_id('com.example.todolist:id/toDoItemDetailET').send_keys('111')\n        # 点击保存\n        driver.find_element_by_id('com.example.todolist:id/saveBtn').click()\n>       logger.info()\nE       TypeError: info() missing 1 required positional argument: 'msg'\n\ntestcases\\test_todolist.py:31: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1587212302747,
+      "stop" : 1587212326839,
+      "duration" : 24092
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1587212336153,
+      "stop" : 1587212342835,
+      "duration" : 6682
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加待办"
+  }, {
+    "name" : "feature",
+    "value" : "待办事项"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_todolist"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_todolist"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TL7UQU5"
+  }, {
+    "name" : "thread",
+    "value" : "7264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_todolist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "661ba1e193c6211.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","testcases.test_todolist.Test_todolist#test_login","1982",""
+"passed","testcases.test_todolist.Test_todolist#test_deleteDetail","4413",""
+"passed","testcases.test_todolist.Test_todolist#test_addDetail","2870",""

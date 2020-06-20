@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-TL7UQU5",
+    "children" : [ {
+      "name" : "13784-MainThread",
+      "children" : [ {
+        "name" : "test_baidu_search_case",
+        "uid" : "cb93307fd9ee151d",
+        "parentUid" : "2ded4edb57f661fafcfdc76f56b8c7e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586855734007,
+          "stop" : 1586855740955,
+          "duration" : 6948
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ded4edb57f661fafcfdc76f56b8c7e6"
+    } ],
+    "uid" : "1c9fe1e18ddadf2afe1c28c2ef2fdf01"
+  } ]
+}

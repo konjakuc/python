@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_search",
+      "children" : [ {
+        "name" : "TestBaduSearch",
+        "children" : [ {
+          "name" : "test_baidu_search_case",
+          "uid" : "cb93307fd9ee151d",
+          "parentUid" : "c764c55880fb092a2624c390058c49b3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1586855734007,
+            "stop" : 1586855740955,
+            "duration" : 6948
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c764c55880fb092a2624c390058c49b3"
+      } ],
+      "uid" : "d1996b7ea6a468f560b131b49d2351ba"
+    } ],
+    "uid" : "b51346658ccdb9db01a6b5f6c12deab1"
+  } ]
+}
